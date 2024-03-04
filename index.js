@@ -10,12 +10,17 @@ $(document).ready(function(){
   
     /**
      * Intro type effect
-    */
+    
     $('.typed').typed({strings: ["Engineer", "Developer", "Athlete"],
       loop: true,
       typeSpeed: 100,
       backSpeed: 50,
-      backDelay: 2000})
+      backDelay: 2000})*/
+
+      var typed = new Typed('#typed', {
+        strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+        typeSpeed: 50,
+      });
 })
 
 /*
