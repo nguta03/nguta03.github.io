@@ -281,7 +281,7 @@ a:link:hover {
   color: #fff;
   font-weight: 600;
   text-align: center;
-  padding: 30vh;
+  padding: 30vh 0;
 }
 
 @media (min-width: 768px) {
@@ -295,7 +295,6 @@ a:link:hover {
   font-weight: 600;
   text-align: center;
   color: #fff;
-  padding: 2vh;
 }
 
 @media (min-width: 768px) {
