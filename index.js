@@ -11,7 +11,6 @@ $(document).ready(function(){
     /**
      * Intro type effect
     */
-    const typed = select('.typed')
     $('.typed').typed({strings: ["Engineer", "Developer", "Athlete"],
       loop: true,
       typeSpeed: 100,
