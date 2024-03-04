@@ -1,12 +1,12 @@
 // Put all onload AJAX calls here, and event listeners
-/*
-$(document).ready(function(){
-	$('.header').height($(window).height());
-})*/
 
-(function() {
-    "use strict";
-  
+$(document).ready(function(){
+	
+  $('.header').height($(window).height());
+  $(window).on("resize", function() {
+    $("header").css({ height: $(window).height() });
+    $("body").css({ width: $(window).width() });
+  });
     /**
      * Easy selector helper function
      */
@@ -185,8 +185,7 @@ $(document).ready(function(){
         preloader.remove()
       });
     }
-  
-  })()
+})
 
 /*
 jQuery(document).ready(function() {

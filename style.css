@@ -270,14 +270,14 @@ a:link:hover {
 /*Add mobile code for navbar below*/
 
 /*--------------------------------------------------------------
-# Hero Section
+# Header Section
 --------------------------------------------------------------*/
-.hero {
+.header {
   height: 100vh;
   position: relative;
 }
 
-.hero .hero-title {
+.header .header-title {
   color: #fff;
   font-weight: 600;
   text-align: center;
@@ -285,7 +285,7 @@ a:link:hover {
 }
 
 @media (min-width: 768px) {
-  .hero .hero-title {
+  .header .header-title {
     font-size: 4.5rem;
   }
 }
