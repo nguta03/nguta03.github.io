@@ -7,20 +7,6 @@ $(document).ready(function(){
     $("header").css({ height: $(window).height() });
     $("body").css({ width: $(window).width() });
   });
-  
-    /**
-     * Intro type effect
-    
-    $('.typed').typed({strings: ["Engineer", "Developer", "Athlete"],
-      loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000})*/
-
-      var typed = new Typed('#typed', {
-        strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
-        typeSpeed: 50,
-      });
 })
 
 /*
