@@ -20,8 +20,9 @@
     <link rel="shortcut icon" href="#">
 </head>
 <body>
+
     <!-- NAV BAR CODE -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" aria-label="main navbar">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light p-3" aria-label="main navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="/">Noah Guta</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,36 +31,51 @@
     
         <div class="collapse navbar-collapse" id="navbarDropdown">
             <ul class="navbar-nav ms-auto" id="navbarText">
-              <li class="nav-item">
+              <li class="nav-item scrollto">
                 <a class="nav-link mx-2 active" aria-current="page" href="/">Home</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item scrollto">
                 <a class="nav-link mx-2 active" href="#">Personal Projects</a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown scrollto">
                 <a class="nav-link dropdown-toggle active" href="/worktermreport1" data-bs-toggle="dropdown" aria-expanded="false">Work Term Reports</a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="/worktermreport1">Work Term Report 1</a></li>
                 </ul>
               </li>
-              <li class="nav-item">
+              <li class="nav-item scrollto">
                 <a class="nav-link mx-2 active" href="#">About Me</a>
               </li>
             </ul>
             <ul class="navbar-nav ms-auto d-none d-lg-inline-flex">
-              <li class="nav-item mx-2">
+              <li class="nav-item mx-2 scrollto">
                 <a class="nav-link text-dark h5" href="mailto:noahguta03@gmail.com" target="blank"><i class="fa-solid fa-envelope"></i></a>
               </li>
-              <li class="nav-item mx-2">
+              <li class="nav-item mx-2 scrollto">
                 <a class="nav-link text-dark h5" href="https://www.linkedin.com/in/noahguta/" target="blank"><i class="fab fa-linkedin"></i></a>
               </li>
-              <li class="nav-item mx-2">
+              <li class="nav-item mx-2 scrollto">
                 <a class="nav-link text-dark h5" href="http://github.com/nguta03" target="blank"><i class="fab fa-github"></i></a>
               </li>
             </ul>
         </div>
         </div>
     </nav>
+
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="hero route bg-image" style="background-image: url(images/hero-bg.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="hero-title mb-4">Noah Guta</h1>
+          <p class="hero-subtitle"><span class="typed" data-typed-items="Designer, Developer, Athlete"></span></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- End Hero Section -->
 
     <!-- Carousel -->
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -70,7 +86,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="images/ugccs_banner.png" alt="First slide" width="1500" height="500">
+            <img src="images/ugccs_banner.png" alt="First slide" width="1500" height="500">
     
             <div class="container">
               <div class="carousel-caption text-start">
@@ -81,7 +97,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+            <img src="images/ugccs_banner.png" alt="First slide" width="1500" height="500">
     
             <div class="container">
               <div class="carousel-caption">
@@ -92,7 +108,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+            <img src="images/ugccs_banner.png" alt="First slide" width="1500" height="500">
     
             <div class="container">
               <div class="carousel-caption text-end">
@@ -114,7 +130,30 @@
     </div>
     <!-- Marketing Headers, could be used for displaying personal projects-->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-
+    <div class="container features">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3 class="feature-title">Lorem ipsum</h3>
+            <img src="images/column-1.jpg" class="img-fluid">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+        </div>
+          
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3 class="feature-title">Lorem ipsum</h3>
+            <img src="images/column-2.jpg" class="img-fluid">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <h3 class="feature-title">Lorem ipsum</h3>
+          <img src="images/column-3.jpg" class="img-fluid">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+        </div>
+          
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          
+        </div>
+      </div>
+    </div>
   <div class="container marketing">
 
     <!-- Three columns of text below the carousel -->
@@ -196,6 +235,8 @@
         </footer>
       </div>
     <!-- Leave me at the bottom of body -->
+    <script src="/assets/typed.js/typed.umd.js"></script>
     <script src="/index.js"></script>
+    
 </body>
 </html>
