@@ -273,12 +273,10 @@ a:link:hover {
 # Header Section
 --------------------------------------------------------------*/
 .header {
-  height: 100vh;
   position: relative;
 }
 
 .header .header-title {
-  color: #fff;
   font-weight: 600;
   text-align: center;
   padding: 30vh;
