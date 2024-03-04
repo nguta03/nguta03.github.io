@@ -282,6 +282,7 @@ a:link:hover {
   font-weight: 600;
   font-size: 3rem;
   text-align: center;
+  padding: 30vh;
 }
 
 @media (min-width: 768px) {
