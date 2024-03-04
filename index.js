@@ -160,7 +160,7 @@ $(document).ready(function(){
   
     /**
      * Intro type effect
-    
+    */
     const typed = select('.typed')
     if (typed) {
       let typed_strings = typed.getAttribute('data-typed-items')
@@ -173,7 +173,7 @@ $(document).ready(function(){
         backDelay: 2000
       });
     }
-    */
+    
   
   
     /**
