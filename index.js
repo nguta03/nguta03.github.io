@@ -2,7 +2,7 @@
 
 jQuery(document).ready(function(){
 	
-    jQuery('.header').height($(window).height());
+    jQuery('.header').height(jQuery(window).height() -jQuery(navbar).height() );
     jQuery(window).on("resize", function() {
         jQuery("header").css({ height: $(window).height() });
         jQuery("body").css({ width: $(window).width() });
