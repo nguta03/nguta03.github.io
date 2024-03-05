@@ -172,7 +172,7 @@ a:link:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #fff;
+  color: #343a40;
   font-size: 16px;
   font-weight: 600;
   padding: 0;
@@ -198,7 +198,7 @@ a:link:hover {
   bottom: -6px;
   left: 0;
   width: 0;
-  background-color: #fff;
+  background-color: #343a40;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -214,7 +214,7 @@ a:link:hover {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #fff;
+  color: #343a40;
 }
 
 .navbar .navbarDropdown ul {
@@ -227,7 +227,7 @@ a:link:hover {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #343a40;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -240,7 +240,7 @@ a:link:hover {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: #4e4e4e;
+  color: white;
 }
 
 .navbar .dropdown ul a i {
@@ -288,7 +288,7 @@ a:link:hover {
 --------------------------------------------------------------*/
 .header {
   position: relative;
-  background-color: #000;
+  background-color: #343a40;
 }
 
 .header .header-title {
