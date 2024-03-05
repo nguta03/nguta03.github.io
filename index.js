@@ -7,7 +7,7 @@ jQuery(document).ready(function(){
         jQuery("header").css({ height: $(window).height() });
         jQuery("body").css({ width: $(window).width() });
     });
-})
+});
 
 (function() {
     "use strict";
@@ -100,22 +100,6 @@ jQuery(document).ready(function(){
     }
   
     /**
-     * Back to top button
-     */
-    let backtotop = select('.back-to-top')
-    if (backtotop) {
-      const toggleBacktotop = () => {
-        if (window.scrollY > 100) {
-          backtotop.classList.add('active')
-        } else {
-          backtotop.classList.remove('active')
-        }
-      }
-      window.addEventListener('load', toggleBacktotop)
-      onscroll(document, toggleBacktotop)
-    }
-  
-    /**
      * Mobile nav toggle
      */
     on('click', '.mobile-nav-toggle', function(e) {
@@ -173,7 +157,7 @@ jQuery(document).ready(function(){
       });
     }
   
-  })()
+  })();
 /*
 jQuery(document).ready(function() {
     // On page-load AJAX Example
