@@ -134,19 +134,20 @@ a:link:hover {
 .navbar {
     width: 100% !important;
     padding: 0;
-    color:#000
 }
-
+.nav-link{
+  color: white;
+}
 .fa-envelope {
-  color:white
+  color:white;
 }
 
 .fa-linkedin {
-  color:white
+  color:white;
 }
 
 .fa-github {
-  color:white
+  color:white;
 }
 
 .navbar ul {
