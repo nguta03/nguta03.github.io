@@ -14,9 +14,10 @@ body {
     line-height: 1.75;
     background-color: #343a40;
     padding-bottom: 20px;
+    color: white;
 }
 body.wtr{
-
+  
   background-color: #FFFFFF;
 }
 a {
