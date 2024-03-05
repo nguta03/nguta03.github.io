@@ -4,7 +4,8 @@ html {
     min-height: 100%;
     margin: 0 auto;
     font-size: 16px;
-    background-color: #343a40;
+    background-color: white;
+    color: black;
 }
 
   
@@ -15,15 +16,6 @@ body {
     padding-bottom: 20px;
 }
 
-body.home{
-  background-color: #343a40;
-  color: white
-}
-
-body.wtr{
-
-  background-color: #FFFFFF;
-}
 a {
   color: #1e1e1e;
   text-decoration: none;
@@ -33,38 +25,6 @@ a {
 .mainBody {
   width: 50%;
   margin: auto;
-}
-
-.sectionTitle{
-  font-weight: bold;
-  font-size: 36px;
-  font-style: italic;
-  color: #c20430;
-  margin: auto;
-}
-
-.sectionBody{
-  font-size: 20px;
-  margin: auto;
-}
-
-.goals{
-  font-weight: bold;
-  font-size: 24px;
-  font-style: italic;
-  color: #ffc72a;
-  margin: auto;
-}
-
-hr.colored{
-  border: 0;   /* in order to override TWBS stylesheet */
-  height: 5px;
-  background-color:#FFFFFF;
-  background: -moz-linear-gradient(left, rgba(0,0,0) 0%, rgba(0,0,0) 33.3%, rgba(194,4,48) 33.3%, rgba(194,4,48) 66.7%, rgba(255,199,42) 66.7%, rgba(255,199,42) 100%);  /* FF3.6+ */
-  background: -webkit-linear-gradient(left, rgba(0,0,0) 0%, rgba(0,0,0) 33.3%, rgba(194,4,48) 33.3%, rgba(194,4,48) 66.7%, rgba(255,199,42) 66.7%, rgba(255,199,42) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left,  rgba(0,0,0) 0%, rgba(0,0,0) 33.3%, rgba(194,4,48) 33.3%, rgba(194,4,48) 66.7%, rgba(255,199,42) 66.7%, rgba(255,199,42) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(left,  rgba(0,0,0) 0%, rgba(0,0,0) 33.3%, rgba(194,4,48) 33.3%, rgba(194,4,48) 66.7%, rgba(255,199,42) 66.7%, rgba(255,199,42) 100%); /* IE10+ */
-  background: linear-gradient(to right, rgba(0,0,0) 0%, rgba(0,0,0) 33.3%, rgba(194,4,48) 33.3%, rgba(194,4,48) 66.7%, rgba(255,199,42) 66.7%, rgba(255,199,42) 100%); /* W3C */
 }
 
 .featureImage{
@@ -189,6 +149,10 @@ a:link:hover {
     font-size: 4.5rem;
   }
 }
+
+/*--------------------------------------------------------------
+# WTR Styling
+--------------------------------------------------------------*/
 
 .sectionTitle{
   font-weight: bold;
