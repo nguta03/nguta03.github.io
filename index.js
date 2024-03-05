@@ -1,11 +1,12 @@
 // Put all onload AJAX calls here, and event listeners
 
 jQuery(document).ready(function(){
-	
+	console.log("HERE");
     jQuery('.header').height(jQuery(window).height() -jQuery(navbar).height() );
     jQuery(window).on("resize", function() {
         jQuery("header").css({ height: $(window).height() });
         jQuery("body").css({ width: $(window).width() });
+        console.log("HERE");
     });
 });
 
