@@ -4,7 +4,7 @@ html {
     min-height: 100%;
     margin: 0 auto;
     font-size: 16px;
-    background-color: #FFFFFF;
+    background-color: #343a40;
 }
 
   
@@ -12,10 +12,13 @@ body {
     height: 100%;
     min-height: 100%;
     line-height: 1.75;
-    background-color: #FFFFFF;
+    background-color: #343a40;
     padding-bottom: 20px;
 }
+body.wtr{
 
+  background-color: #FFFFFF;
+}
 a {
   color: #1e1e1e;
   text-decoration: none;
