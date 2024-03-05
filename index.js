@@ -1,13 +1,14 @@
 // Put all onload AJAX calls here, and event listeners
 
-$(document).ready(function(){
+jQuery(document).ready(function(){
 	
-  $('.header').height($(window).height());
-  $(window).on("resize", function() {
-    $("header").css({ height: $(window).height() });
-    $("body").css({ width: $(window).width() });
-  });
+    jQuery('.header').height($(window).height());
+    jQuery(window).on("resize", function() {
+        jQuery("header").css({ height: $(window).height() });
+        jQuery("body").css({ width: $(window).width() });
+    });
 })
+
 (function() {
     "use strict";
   
