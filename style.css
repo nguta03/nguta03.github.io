@@ -172,8 +172,15 @@ a:link:hover {
   font-weight: bold;
   font-size: 24px;
   font-style: italic;
-  color: #ffc72a;
   margin: auto;
+}
+
+.wtr1{
+  color: #ffc72a;
+}
+
+.wtr2{
+  color: #373634;
 }
 
 hr.coloredwtr1{
